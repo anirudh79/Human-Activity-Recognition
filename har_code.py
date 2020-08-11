@@ -19,6 +19,8 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
 
+print("Test branch");
+
 f_y_train = open("/home/anirudh/Downloads/UCI_HAR_Dataset/train/y_train", 'r')
 f_x_train = open("/home/anirudh/Downloads/UCI_HAR_Dataset/train/x_train", 'r')
 
